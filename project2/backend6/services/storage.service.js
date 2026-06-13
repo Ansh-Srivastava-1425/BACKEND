@@ -1,6 +1,5 @@
 const {ImageKit} = require('@imagekit/nodejs')
 
-console.log("PRIVATE KEY:", process.env.IMAGEKIT_PRIVATE_KEY);
 
 const ImageKitClient = new ImageKit({
     privateKey : process.env.IMAGEKIT_PRIVATE_KEY,
